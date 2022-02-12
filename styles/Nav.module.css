@@ -1,8 +1,9 @@
 .nav {
     height: 50px;
     padding: 10px;
-    background: #0000;
-    color: #ffff;
+    /* when background & color is given as 000 & fff then only it displays the nav 0000 & ffff doesnt display the nav */
+    background: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: flex-start;
