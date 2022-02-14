@@ -1,5 +1,5 @@
 // import Link from 'next/link'
-import navStyles from "../styles/Nav.module.css"
+// import navStyles from "../styles/Nav.module.css"
 
 import Logo from './logo'
 import NextLink from './next/link'
@@ -22,7 +22,7 @@ const LinkItem = ({ href, path, children }) => {
 }
 
 
-const Nav = props => {
+const Navbar = props => {
     const { path } = props
   return (
       <Box
@@ -62,4 +62,4 @@ const Nav = props => {
 //   )
 // }
 
-export default Nav
+export default Navbar
