@@ -15,6 +15,11 @@ const Nav = () => {
  
                 </Link>
             </li>
+            <li>
+                <Link href='/Posts' >Posts
+ 
+                </Link>
+            </li>
         </ul>
     </nav>
   )

@@ -16,3 +16,8 @@ export default function Home() {
     // everything should be inside the div 
   )
 }
+
+
+// export const getStaticProps = async () => {
+//   const res = await fetch()
+//   const articles = await res.json()
