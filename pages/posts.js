@@ -23,9 +23,5 @@ const posts = () => (
             </Section>
         </Container>
       </Layout>
-    
   )
-
-
-
 export default posts
