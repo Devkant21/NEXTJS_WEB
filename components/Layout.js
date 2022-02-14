@@ -1,5 +1,5 @@
 import Nav from './navbar'
-import Header from './Header'
+// import Header from './Header'
 import styles from '../styles/Layout.module.css'
 
 const Layout = ({ children }) => {
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <div className={styles.container}>
             <main className={styles.main}>
               {/* <h1>Hello</h1> */}
-              <Header />
+              {/* <Header /> */}
               {children}
             </main>
         </div> 

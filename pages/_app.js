@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import '../styles/globals.css'
+// import '../styles/globals.css'
 import { ChakraProvider } from '@chakra-ui/react'
 
 const MyApp = ({ Component, pageProps, router }) => {
@@ -11,5 +11,5 @@ const MyApp = ({ Component, pageProps, router }) => {
     </ChakraProvider>
   )
 }
- 
+
 export default MyApp
